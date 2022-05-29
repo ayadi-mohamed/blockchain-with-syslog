@@ -15,7 +15,7 @@ Steps
 # the destination log file us the following 
 # all the logs with all facilities and severities levels would be logged on this destination 
 #make sure to add the syslog file context on the directory in order to allow rsyslogs to log on the directory (SElinux <3)
-    *.* /home/ayadinou/fabric-samples/test-network/filename.txt;class
+    *.* {{your project path}}/test-network/filename.txt;class
     --------------------------------------------------
     2)make sure to reload the rsyslog daemon
 
